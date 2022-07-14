@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3401132 */
+  src: url('iconfont.woff2?t=1657249461872') format('woff2'),
+       url('iconfont.woff?t=1657249461872') format('woff'),
+       url('iconfont.ttf?t=1657249461872') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before {
+  content: "\e622";
+}
+
+.icon-gouwuche2:before {
+  content: "\e655";
+}
+
+.icon-gouwuche:before {
+  content: "\e690";
+}
+
+.icon-gouwuche1:before {
+  content: "\e611";
+}
+
+.icon-xiangxia:before {
+  content: "\e66e";
+}
+
+.icon-xiangshang:before {
+  content: "\e726";
+}
+
+.icon-xinlangweibo:before {
+  content: "\e600";
+}
+
+.icon-weixin:before {
+  content: "\e601";
+}
+
+.icon-baidutieba:before {
+  content: "\e613";
+}
+
+.icon-youjiantou:before {
+  content: "\e67f";
+}
+
+.icon-youjiantou1:before {
+  content: "\e79c";
+}
+
+.icon-shuangyoukuohao:before {
+  content: "\e672";
+}
+
+.icon-yhr:before {
+  content: "\e60d";
+}
+
+.icon-yiliao_jibingbaike:before {
+  content: "\e640";
+}
+

@@ -1,0 +1,107 @@
+{
+  "id": "3401132",
+  "name": "deml",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "947053",
+      "name": "购物车",
+      "font_class": "gouwuche2",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "6308120",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "7817220",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "397824",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "1191733",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "1360",
+      "name": "新浪微博",
+      "font_class": "xinlangweibo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "534205",
+      "name": "百度贴吧",
+      "font_class": "baidutieba",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "870470",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "4425834",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e79c",
+      "unicode_decimal": 59292
+    },
+    {
+      "icon_id": "1245538",
+      "name": "双右括号",
+      "font_class": "shuangyoukuohao",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "9801793",
+      "name": "双引号",
+      "font_class": "yhr",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "29457053",
+      "name": "医疗_疾病百科",
+      "font_class": "yiliao_jibingbaike",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}

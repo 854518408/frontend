@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP-LINK 官方商城</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/pagination.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+<body>
+     <!-- 头部 -->
+     <header>
+        <div class="wrapper clearfix">
+            <p class="fl">商城优惠大酬宾，全场满59元包邮！</p>
+            <ul class="fr">
+                <li class="fl" id="login"><a href="./login.html">登录</a></li>
+                <li class="fl" id="register"><a href="./register.html">注册</a></li>
+                <li class="fl"><a href="#">我的订单</a></li>
+                <li class="fl"><a href="#">帮助中心</a></li>
+                <li class="fl"><a href="#">TP-LINK官网</a></li>
+                <li class="fl"><a href="javascript:;" id="headerCart">
+                        <i class="iconfont icon-gouwuche2"></i>
+                        <span>购物车</span>
+                    </a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 搜索栏 -->
+    <nav>
+        <div class="wrapper clearfix">
+            <a href="./index.html" class="fl logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="input fr">
+                <span>摄像机</span>
+                <span>路由器</span>
+                <span>AC1900</span>
+                <i class="iconfont icon-sousuo"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- 列表区域的主要内容 -->
+    <div class="container">
+        <div class="search clearfix">
+            <!-- 里面分为左中右三块 标题 类型 搜索 -->
+            <div class="title fl">
+                <p>综合</p>
+                <p>职业</p>
+            </div>
+            <div class="types fl">
+                <div class="clearfix">
+                    <!-- 圆最后设置div的伪元素即可 -->
+                    <div class="radio fl" data-pay_type="10">本周免费</div>
+                    <div class="radio fl" data-pay_type="11">新手推荐</div>
+                    <div class="radio fl" data-price_sort="up">价格升序</div>
+                    <div class="radio fl" data-price_sort="down">价格降序</div>
+                </div>
+                <div class="clearfix">
+                    <div class="radio fl checked" id='allHero'>全部</div>
+                    <div class="radio fl" data-hero_type="3">坦克</div>
+                    <div class="radio fl" data-hero_type="1">战士</div>
+                    <div class="radio fl" data-hero_type="4">刺客</div>
+                    <div class="radio fl" data-hero_type="2">法师</div>
+                    <div class="radio fl" data-hero_type="5">射手</div>
+                    <div class="radio fl" data-hero_type="6">辅助</div>
+                </div>
+            </div>
+            <div class="keyword fr">
+                <input type="text" placeholder="请输入你想要搜索的信息">
+                <span><img src="./images/search_icon.png" alt=""></span>
+            </div>
+        </div>
+        <div class="content">
+            <!-- 这里渲染数据 -->
+        </div>
+        <!-- 添加分页结构 -->
+        <div class="pagelist">
+            <div class="m-style page"></div>
+        </div>
+    </div>
+    <!-- 尾部内容 -->
+    <footer>
+        <div class="wrapper">
+            <div class="adv">
+                <img src="./images/promise.jpg" alt="">
+            </div>
+            <div class="content clearfix">
+                <dl class="fl">
+                    <dt>购物指南</dt>
+                    <dd>购买流程</dd>
+                    <dd>会员注册</dd>
+                    <dd>销售条款</dd>
+                    <dd>退货政策</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>支付方式</dt>
+                    <dd>银行网银</dd>
+                    <dd>支付宝</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>订单信息</dt>
+                    <dd>订单管理</dd>
+                    <dd>发票制度</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>售后服务</dt>
+                    <dd>服务政策</dd>
+                    <dd>保修查询</dd>
+                    <dd>联系我们</dd>
+                </dl>
+            </div>
+            <div class="copyright">
+                <p>粤ICP备05144415号</p>
+                <p>普联技术有限公司 版权所有 Copyright © 2019 TP-LINK. All rights reserved.</p>
+            </div>
+        </div>
+        <!-- 回到顶部 -->
+        <div class="topNormal"></div>  
+    </footer>
+    <script src="./js/list.js" type="module"></script>
+</body>
+</html>

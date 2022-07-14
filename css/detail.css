@@ -1,0 +1,286 @@
+body{
+    background-color: #fff;
+}
+header {
+    font-size: 12px;
+    background-color: #333;
+    line-height: 40px;
+}
+
+header p {
+    height: 40px;
+    color: #fff;
+}
+
+header li {
+    padding: 0 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+}
+
+header li:not(:last-child)::after {
+    content: '';
+    width: 2px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: -1px;
+    top: 15px;
+}
+
+header li:nth-child(5)::after {
+    content: '';
+    position: static;
+}
+
+header li .icon-gouwuche2 {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+header li:last-child {
+    background-color: #4d4d4d;
+}
+
+header li a{
+    display: block;
+}
+
+header li a:hover {
+    color: #fff;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav>div {
+    position: relative;
+}
+
+nav .logo {
+    padding: 30px 0;
+}
+
+nav .logo img {
+    display: block;
+    width: 237px;
+    height: 20px;
+}
+
+nav .input {
+    width: 320px;
+    height: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    padding: 8px 32px 8px 12px;
+    position: relative;
+}
+
+nav .input span {
+    color: #999;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+nav .input span:hover {
+    color: #0096ff;
+}
+
+nav .input i {
+    font-size: 20px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #999;
+    cursor: pointer;
+}
+
+nav .input i:hover {
+    color: #0096ff;
+}
+
+/* container区域代码 */
+.content {
+    margin: 60px 0 0 0px;
+    position: relative;
+}
+
+.content .title-img {
+    max-width: 352px;
+}
+
+.content .title-img img {
+    width: 117px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.small {
+    width: 350px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+
+.big {
+    width: 1090px;
+    height: 500px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0px;
+    left: 351px;
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+    background-size: 1920px 882px;
+}
+
+.move {
+    width: 218.75px;
+    height: 218.75px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 187, 0, 0.5);
+    cursor: move;/* 设置鼠标样式为可移动的 */
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    border: 2px solid #e53e41;
+}
+
+.product-info h4{
+    color: #333;
+    margin-top: 60px;
+    width: 520px;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.product-info .price{
+    font-size: 24px;
+    color: #FF3232;
+    line-height: 40px;
+    height: 40px;
+    margin: 16px 0;
+}
+
+.product-info .freight{
+    background:url('../images/freight.png') no-repeat;
+    width: 107px;
+    height: 35px;
+}
+
+.product-info .address{
+    margin: 24px 0;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #333;
+}
+.product-info .address span{
+    color: #666;
+    font-size: 14px;
+}
+.product-info .address i{
+    color: #0090ff;
+    margin-left: 16px;
+}
+.buybtns .num{
+    width: 72px;
+    height: 48px;
+    border:1px solid #ccc;
+    margin-right: 16px;
+}
+.buybtns .num input{
+    text-align: center;
+    width: 41px;
+    height: 45px;
+    border: none;
+    border-right: 1px solid #ccc;
+    padding:1px;
+}
+.buybtns .num button{
+    border:none;
+    border-bottom: 1px solid #ccc;
+    width: 28px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+.buybtns .num button:last-child{
+    border-bottom: none;
+}
+
+.buybtns .tobuy{
+    color:#ff3232;
+    border:1px solid #ff3232;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 16px;
+}
+.buybtns .addcart{
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    background: #FF3232;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 尾部css */
+footer {
+    margin-top: 28px;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+footer .content dl {
+    margin-top: 36px;
+    margin-left: 160px;
+}
+
+footer .content dl dt {
+    height: 12px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+footer .content dl dd {
+    height: 12px;
+    color: #999;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .content dl dd:hover {
+    color: #0096ff;
+}
+
+footer .copyright {
+    height: 48px;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}

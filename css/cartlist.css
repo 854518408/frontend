@@ -1,0 +1,293 @@
+body {
+    box-sizing: border-box;
+    font-size: 13px;
+}
+header {
+    font-size: 12px;
+    background-color: #333;
+    line-height: 40px;
+}
+
+header p {
+    height: 40px;
+    color: #fff;
+}
+
+header li {
+    padding: 0 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+}
+
+header li:not(:last-child)::after {
+    content: '';
+    width: 2px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: -1px;
+    top: 15px;
+}
+
+header li:nth-child(5)::after {
+    content: '';
+    position: static;
+}
+
+header li .icon-gouwuche2 {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+header li:last-child {
+    background-color: #4d4d4d;
+}
+
+header li a{
+    display: block;
+}
+
+header li a:hover {
+    color: #fff;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav>div {
+    position: relative;
+}
+
+nav .logo {
+    padding: 30px 0;
+}
+
+nav .logo img {
+    display: block;
+    width: 237px;
+    height: 20px;
+}
+
+nav .input {
+    width: 320px;
+    height: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    padding: 8px 32px 8px 12px;
+    position: relative;
+}
+
+nav .input span {
+    color: #999;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+nav .input span:hover {
+    color: #0096ff;
+}
+
+nav .input i {
+    font-size: 20px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #999;
+    cursor: pointer;
+}
+
+nav .input i:hover {
+    color: #0096ff;
+}
+#cart a {
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+#cart em {
+    color: #ff2100;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+}
+
+#cart input[type='checkbox'] {
+    cursor: pointer;
+}
+
+#cart {
+    /* outline: 1px dashed blue; */
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#cart div {
+    /* outline: 1px dashed pink; */
+    float: left;
+}
+
+#cart div.info {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+#cart div.check,
+#cart div.price,
+#cart div.num,
+#cart div.sum,
+#cart div.del {
+    width: 159px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 头部 */
+#cart .header {
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+}
+
+/* 商品列表 */
+#cart .itemChecked {
+    background-color: #fff9de;
+}
+
+#cart .list .item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#cart .list .item .check .checkItem {
+    margin-left: -30px;
+}
+
+#cart .list .item .info img {
+    float: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#cart .list .item .num {
+    font-size: 0;
+}
+
+#cart .list .item .num .decr,
+#cart .list .item .num .incr {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+#cart .list .item .num .txt {
+    width: 45px;
+    height: 25px;
+    border: 1px solid #cacaca;
+    text-align: center;
+}
+
+/* 总计与结算 */
+#cart .footer {
+    margin-top: 10px;
+    width: 1200px;
+    height: 60px;
+    padding: 20px 0;
+    background-color: #f3f3f3;
+}
+
+#cart .footer div.check {
+    padding: 0;
+}
+
+#cart .footer div.operation {
+    width: 400px;
+}
+
+#cart .footer div.operation a {
+    margin: 0 10px;
+}
+
+#cart .footer>div.right {
+    width: 380px;
+    float: right;
+}
+
+#cart .footer>div.right div {
+    width: 110px;
+}
+
+#cart .footer>div.right div.sums {
+    width: 160px;
+}
+
+#cart .footer>div.right div.done {
+    height: 60px;
+    margin-top: -20px;
+    font-weight: bolder;
+    line-height: 60px;
+    text-align: center;
+}
+
+#cart .footer>div.right div.done a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 21px;
+    color: #fff;
+    background-color: #ff2100;
+}
+
+#cart .footer em {
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+/* 尾部css */
+footer {
+    margin-top: 28px;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+footer .content dl {
+    margin-top: 36px;
+    margin-left: 160px;
+}
+
+footer .content dl dt {
+    height: 12px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+footer .content dl dd {
+    height: 12px;
+    color: #999;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .content dl dd:hover {
+    color: #0096ff;
+}
+
+footer .copyright {
+    height: 48px;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}

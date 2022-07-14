@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP-LINK会员登录</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/login-reg.css" />
+</head>
+
+<body>
+    <form class="user-form">
+        <h1 class="title">
+            <img src="./images/tp.png" alt="" />
+            会员登录
+        </h1>
+        <div class="form-group">
+            <i class="iconfont icon-zhanghao"></i>
+            <input id="txtLoginId" name="loginId" type="text" max="20" placeholder="请输入账号" class="txt" />
+            <p class="err"></p>
+        </div>
+        <div class="form-group">
+            <i class="iconfont icon-mima"></i>
+            <input id="txtLoginPwd" name="loginPwd" type="password" max="20" placeholder="请输入密码" class="txt" />
+            <p class="err"></p>
+        </div>
+        <div class="form-group">
+            <button class="submit">登录</button>
+        </div>
+        <div class="form-group">
+            <p class="msg">
+                没有账号？
+                <a href="./register.html">点击这里注册</a>
+            </p>
+        </div>
+    </form>
+    <script src='./js/login.js' type="module"></script>
+</body>
+
+</html>

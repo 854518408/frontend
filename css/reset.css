@@ -1,0 +1,79 @@
+/* 这个css是用来做样式重置的 */
+
+body,p,h1,h2,h3,h4{
+    margin: 0;
+}
+
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+dl,dt,dd{
+    margin: 0;
+    padding:0;
+}
+
+b,strong{
+    font-weight: normal;
+}
+
+em,i{
+    font-style: normal;
+}
+
+u,s,del{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;/* 让超链接颜色可以继承父级颜色,暂时这么写看后面会不会出错 */
+}
+
+body{
+    /* 根据具体例子而定 */
+    background-color: #F7F7F7;
+    font-family: 'Microsoft YaHei','Hiragino Sans GB',SimHei;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/* 清除浮动的影响 */
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+img{
+    vertical-align: middle;/*去掉图片自带的像素 */
+}
+
+/* 去掉input,button元素自带的一些属性 */
+input,button{
+    margin: 0;
+    padding: 0;
+    outline: none;/* 去掉表单控件的外轮廓 */
+    /* 边框去不去掉看实际情况 */
+}
+textarea{
+    outline: none;
+    resize: none;/* 去掉多行文本右下角标记 */
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto ;
+}
+
+.c60{
+    color:#606060;
+}
+/* 暂时需要这么多重置样式 */

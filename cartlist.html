@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP-LINK 官方商城</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/cartlist.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="wrapper clearfix">
+            <p class="fl">商城优惠大酬宾，全场满59元包邮！</p>
+            <ul class="fr">
+                <li class="fl" id="login"><a href="./login.html">登录</a></li>
+                <li class="fl" id="register"><a href="./register.html">注册</a></li>
+                <li class="fl"><a href="#">我的订单</a></li>
+                <li class="fl"><a href="#">帮助中心</a></li>
+                <li class="fl"><a href="#">TP-LINK官网</a></li>
+                <li class="fl">
+                    <a href="javascript:;" id="headerCart">
+                        <i class="iconfont icon-gouwuche2"></i>
+                        <span>购物车</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- 搜索栏 -->
+    <nav>
+        <div class="wrapper clearfix">
+            <a href="./index.html" class="fl logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="input fr">
+                <span>摄像机</span>
+                <span>路由器</span>
+                <span>AC1900</span>
+                <i class="iconfont icon-sousuo"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- 中间购物车主体区域 -->
+    <div id="cart">
+        <div class="header">
+            <div class="check">
+                <input type="checkbox" class="checkAll" />
+                全选
+            </div>
+            <div class="info">商品信息</div>
+            <div class="price">单价</div>
+            <div class="num">数量</div>
+            <div class="sum">金额</div>
+            <div class="del">操作</div>
+        </div>
+
+        <div class="list">
+            <!-- 这里购物车数据需要渲染 -->
+        </div>
+
+        <div class="footer">
+            <div class="check">
+                <input type="checkbox" class="checkAll" />
+                全选
+            </div>
+            <div class="operation">
+                <a href="" class="delChecked">删除选中商品</a>
+                <a href="" class="clearAll">清空购物车</a>
+            </div>
+            <div class="right">
+                <div class="nums">
+                    已选
+                    <em>0</em>
+                    件商品
+                </div>
+                <div class="sums">
+                    合计：
+                    <em>￥0.00</em>
+                </div>
+                <div class="done">
+                    <a href="">结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部内容 -->
+    <footer>
+        <div class="wrapper">
+            <div class="adv">
+                <img src="./images/promise.jpg" alt="">
+            </div>
+            <div class="content clearfix">
+                <dl class="fl">
+                    <dt>购物指南</dt>
+                    <dd>购买流程</dd>
+                    <dd>会员注册</dd>
+                    <dd>销售条款</dd>
+                    <dd>退货政策</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>支付方式</dt>
+                    <dd>银行网银</dd>
+                    <dd>支付宝</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>订单信息</dt>
+                    <dd>订单管理</dd>
+                    <dd>发票制度</dd>
+                </dl>
+                <dl class="fl">
+                    <dt>售后服务</dt>
+                    <dd>服务政策</dd>
+                    <dd>保修查询</dd>
+                    <dd>联系我们</dd>
+                </dl>
+            </div>
+            <div class="copyright">
+                <p>粤ICP备05144415号</p>
+                <p>普联技术有限公司 版权所有 Copyright © 2019 TP-LINK. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/cartlist.js" type="module"></script>
+</body>
+
+</html>
